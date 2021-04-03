@@ -2,7 +2,7 @@ import React from 'react'
 import { buildImageObj } from '../lib/helpers'
 import { imageUrlFor } from '../lib/image-url'
 
-import styles from './role-list.module.css'
+import * as styles from './role-list.module.css'
 
 function ucfirst (str) {
   return `${str.substr(0, 1).toUpperCase()}${str.substr(1)}`

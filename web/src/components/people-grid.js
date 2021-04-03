@@ -3,7 +3,7 @@ import BlockText from './block-text'
 import { buildImageObj } from '../lib/helpers'
 import { imageUrlFor } from '../lib/image-url'
 
-import styles from './people-grid.module.css'
+import * as styles from './people-grid.module.css'
 import { responsiveTitle2 } from '../components/typography.module.css'
 
 function ProfileCard ({ image, name, _rawBio }) {
