@@ -1,7 +1,7 @@
 import BaseBlockContent from '@sanity/block-content-to-react'
 import React from 'react'
 
-import typography from './typography.module.css'
+import * as typography from './typography.module.css'
 
 const serializers = {
   types: {
